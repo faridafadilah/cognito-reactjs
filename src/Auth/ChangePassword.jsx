@@ -1,5 +1,5 @@
 import { useContext, useState } from "react"
-import { changePassword } from "./auth"
+import { changePassword } from "../service/auth"
 import { AuthContext } from './AuthContext'
 
 export default function ChangePassword() {

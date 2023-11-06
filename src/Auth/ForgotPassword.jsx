@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { forgotPassword } from "./auth"
+import { forgotPassword } from "../service/auth"
 import { Link } from "react-router-dom"
 
 export default function ForgotPassword() {

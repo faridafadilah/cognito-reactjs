@@ -1,4 +1,4 @@
-import { getAccessToken } from './auth';
+import { getAccessToken } from '../service/authh';
 
 export default function authHeader() {
   let accessToken = localStorage.getItem('accessToken');

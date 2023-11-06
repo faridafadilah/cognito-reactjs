@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { confirmSignUp } from "./auth"
+import { confirmSignUp } from "../service/auth"
 
 export default function ConfirmSignUp() {
   const [username, setUsername] = useState("")

@@ -1,5 +1,5 @@
 import { useState } from "react"
-import { confirmPassword } from "./auth"
+import { confirmPassword } from "../service/auth"
 
 export default function ResetPassword() {
   const [username, setUsername] = useState("")
