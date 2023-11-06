@@ -12,11 +12,9 @@ Implement AWS Cognito with React Js
 - Get User
 - Update User
 
-Dont Forget SetUp your configuration `.env`:
+Dont Forget SetUp your configuration file `cognitoConfig`:
 ```
-AWS_COGNITO_USER_POOL_ID=
-AWS_COGNITO_CLIENT_ID=
-AWS_COGNITO_REGION=
-AWS_COGNITO_IDENTITY_POOL_ID=
-AWS_ACCESS_KEYID= 
-AWS_SECRET_ACCESS= 
+export const cognitoConfig = {
+  UserPoolId: "xxxxxxxxxxxxxxxxx",
+  ClientId: "xxxxxxxxxxxxxxxxx",
+}
